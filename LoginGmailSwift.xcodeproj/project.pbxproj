@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7932DC1204214DBB04F31216 /* Pods_LoginGmailSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6198A15AD68B535519C4D0 /* Pods_LoginGmailSwift.framework */; };
+		CFCF5A71206C06220030B929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCF5A70206C06220030B929 /* AppDelegate.swift */; };
+		CFCF5A73206C06220030B929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCF5A72206C06220030B929 /* ViewController.swift */; };
+		CFCF5A76206C06220030B929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCF5A74206C06220030B929 /* Main.storyboard */; };
+		CFCF5A78206C06220030B929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCF5A77206C06220030B929 /* Assets.xcassets */; };
+		CFCF5A7B206C06220030B929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCF5A79206C06220030B929 /* LaunchScreen.storyboard */; };
+		CFCF5A83206C0A350030B929 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFCF5A82206C0A350030B929 /* credentials.plist */; };
+		CFCF5A85206C0B830030B929 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCF5A84206C0B830030B929 /* InicioViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D6198A15AD68B535519C4D0 /* Pods_LoginGmailSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginGmailSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8EA1FBFCDA2E93A300AB24 /* Pods-LoginGmailSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginGmailSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginGmailSwift/Pods-LoginGmailSwift.release.xcconfig"; sourceTree = "<group>"; };
+		9DFF8B14F14473C904F0B258 /* Pods-LoginGmailSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginGmailSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginGmailSwift/Pods-LoginGmailSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CFCF5A6D206C06220030B929 /* LoginGmailSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginGmailSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCF5A70206C06220030B929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFCF5A72206C06220030B929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFCF5A75206C06220030B929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCF5A77206C06220030B929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCF5A7A206C06220030B929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCF5A7C206C06220030B929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCF5A82206C0A350030B929 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		CFCF5A84206C0B830030B929 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCF5A6A206C06220030B929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7932DC1204214DBB04F31216 /* Pods_LoginGmailSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172E3987975640056604F676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF8B14F14473C904F0B258 /* Pods-LoginGmailSwift.debug.xcconfig */,
+				9C8EA1FBFCDA2E93A300AB24 /* Pods-LoginGmailSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C7AE8B23362BEA60324416D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D6198A15AD68B535519C4D0 /* Pods_LoginGmailSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCF5A64206C06220030B929 = {
+			isa = PBXGroup;
+			children = (
+				CFCF5A6F206C06220030B929 /* LoginGmailSwift */,
+				CFCF5A6E206C06220030B929 /* Products */,
+				172E3987975640056604F676 /* Pods */,
+				1C7AE8B23362BEA60324416D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCF5A6E206C06220030B929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCF5A6D206C06220030B929 /* LoginGmailSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCF5A6F206C06220030B929 /* LoginGmailSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CFCF5A70206C06220030B929 /* AppDelegate.swift */,
+				CFCF5A72206C06220030B929 /* ViewController.swift */,
+				CFCF5A84206C0B830030B929 /* InicioViewController.swift */,
+				CFCF5A74206C06220030B929 /* Main.storyboard */,
+				CFCF5A77206C06220030B929 /* Assets.xcassets */,
+				CFCF5A82206C0A350030B929 /* credentials.plist */,
+				CFCF5A79206C06220030B929 /* LaunchScreen.storyboard */,
+				CFCF5A7C206C06220030B929 /* Info.plist */,
+			);
+			path = LoginGmailSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCF5A6C206C06220030B929 /* LoginGmailSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCF5A7F206C06220030B929 /* Build configuration list for PBXNativeTarget "LoginGmailSwift" */;
+			buildPhases = (
+				FFFE90B6DA74EE01FEFF9DE8 /* [CP] Check Pods Manifest.lock */,
+				CFCF5A69206C06220030B929 /* Sources */,
+				CFCF5A6A206C06220030B929 /* Frameworks */,
+				CFCF5A6B206C06220030B929 /* Resources */,
+				EECD9B568AAB749F6F069308 /* [CP] Embed Pods Frameworks */,
+				DFAAB92EEFBF8424D092A2B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginGmailSwift;
+			productName = LoginGmailSwift;
+			productReference = CFCF5A6D206C06220030B929 /* LoginGmailSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCF5A65206C06220030B929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = codelapp;
+				TargetAttributes = {
+					CFCF5A6C206C06220030B929 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFCF5A68206C06220030B929 /* Build configuration list for PBXProject "LoginGmailSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCF5A64206C06220030B929;
+			productRefGroup = CFCF5A6E206C06220030B929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCF5A6C206C06220030B929 /* LoginGmailSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCF5A6B206C06220030B929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCF5A7B206C06220030B929 /* LaunchScreen.storyboard in Resources */,
+				CFCF5A83206C0A350030B929 /* credentials.plist in Resources */,
+				CFCF5A78206C06220030B929 /* Assets.xcassets in Resources */,
+				CFCF5A76206C06220030B929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFAAB92EEFBF8424D092A2B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoginGmailSwift/Pods-LoginGmailSwift-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginGmailSwift/Pods-LoginGmailSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECD9B568AAB749F6F069308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoginGmailSwift/Pods-LoginGmailSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginGmailSwift/Pods-LoginGmailSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFFE90B6DA74EE01FEFF9DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginGmailSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCF5A69206C06220030B929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCF5A73206C06220030B929 /* ViewController.swift in Sources */,
+				CFCF5A85206C0B830030B929 /* InicioViewController.swift in Sources */,
+				CFCF5A71206C06220030B929 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFCF5A74206C06220030B929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCF5A75206C06220030B929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCF5A79206C06220030B929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCF5A7A206C06220030B929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCF5A7D206C06220030B929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFCF5A7E206C06220030B929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCF5A80206C06220030B929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFF8B14F14473C904F0B258 /* Pods-LoginGmailSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoginGmailSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCF5A81206C06220030B929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8EA1FBFCDA2E93A300AB24 /* Pods-LoginGmailSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoginGmailSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codelapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCF5A68206C06220030B929 /* Build configuration list for PBXProject "LoginGmailSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCF5A7D206C06220030B929 /* Debug */,
+				CFCF5A7E206C06220030B929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCF5A7F206C06220030B929 /* Build configuration list for PBXNativeTarget "LoginGmailSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCF5A80206C06220030B929 /* Debug */,
+				CFCF5A81206C06220030B929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCF5A65206C06220030B929 /* Project object */;
+}
